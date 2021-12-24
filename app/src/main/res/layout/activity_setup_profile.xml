@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageview"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/avatar"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile Info"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textColor="#ffcc33"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="please set your profile"
+            android:textSize="14dp"
+            android:layout_marginBottom="12dp"
+            android:textColor="@color/black"/>
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/square"
+            android:gravity="center"
+            android:hint="Please enter your name"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:padding="2dp"
+            android:textSize="28dp"
+            tools:ignore="LabelFor" />
+
+
+
+            <TextView
+                android:id="@+id/set_profile"
+                android:background="#ffcc33"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:textAlignment="center"
+                android:text="Set Profile"
+                android:textSize="16dp"
+                android:layout_margin="20dp"
+                android:textColor="@color/white"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+
+            <ProgressBar
+                android:id="@+id/progressbar_sending_otp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/update_profile"
+            android:background="#ffcc33"
+            android:layout_width="match_parent"
+            android:layout_height="35sp"
+            android:textAlignment="center"
+            android:text="Update Profile"
+            android:textSize="16dp"
+            android:layout_margin="20dp"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+</layout>

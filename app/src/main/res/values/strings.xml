@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hingoli Food</string>
+    <string name="otp_verification" />
+
+    <string name="we_will">We will send an OTP to your mobile number</string>
+    <string name="enter_your">Enter Your Country Code And Mobile Number</string>
+</resources>

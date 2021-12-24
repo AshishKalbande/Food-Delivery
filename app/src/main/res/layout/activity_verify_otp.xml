@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".Phone.VerifyOtpActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="otp_verification"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="26dp"
+            android:textColor="#ffcc33"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="otp send to"
+            android:textSize="14dp"
+            android:layout_marginBottom="12dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/textMobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="18sp"
+            android:textColorHint="@color/black"/>
+
+        <com.mukesh.OtpView
+            android:id="@+id/otp_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:inputType="number"
+            android:itemBackground="@color/yellow"
+            android:textColor="@android:color/white"
+            app:OtpItemCount="6"
+            app:OtpLineColor="@color/yellow"
+            app:OtpViewType="line"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="not_receive"
+                android:textSize="16dp"
+                android:layout_margin="3dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textResendOTP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="resend_otp"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_margin="3dp"
+                android:textColor="#ffcc33"
+                />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="18sp">
+
+            <TextView
+                android:id="@+id/continueBtn"
+                android:background="#ffcc33"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:textAlignment="center"
+                android:text="Verify"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+
+            <ProgressBar
+                android:id="@+id/progressbar_sending_otp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:visibility="gone"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+</layout>

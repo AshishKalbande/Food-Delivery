@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "177004652105",
+    "project_id": "hinglifood",
+    "storage_bucket": "hinglifood.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177004652105:android:0bfabf0f87ef39f36e8198",
+        "android_client_info": {
+          "package_name": "com.example.hingolifood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177004652105-ad9mvb3f6ej191kjdletp0t4d1ctijea.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hingolifood",
+            "certificate_hash": "bd84144e922b483178a0f0ad9a69da2a0cb239a0"
+          }
+        },
+        {
+          "client_id": "177004652105-81sckuhv5r6nd9jj4vglcjhnkmtnu3l6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOBmFBzlXajgInGkYvqzqLwskZ2LDwS7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177004652105-81sckuhv5r6nd9jj4vglcjhnkmtnu3l6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -8,8 +8,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-import com.example.hingolifood.OtpActivity;
-import com.example.hingolifood.PhoneActivity;
 import com.example.hingolifood.databinding.ActivityVerifyPhoneBinding;
 import com.google.firebase.FirebaseException;
 import com.google.firebase.auth.PhoneAuthCredential;

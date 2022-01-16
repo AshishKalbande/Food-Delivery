@@ -2,17 +2,13 @@ package com.example.hingolifood.Adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
-import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.hingolifood.FoodModel;
-import com.example.hingolifood.databinding.ItemsBinding;
 import com.example.hingolifood.databinding.OrderHistroyItemsBinding;
 import com.example.hingolifood.models.OrderHistryModel;
-import com.google.firebase.firestore.auth.User;
 
 import java.util.ArrayList;
 import java.util.List;

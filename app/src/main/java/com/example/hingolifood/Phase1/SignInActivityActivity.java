@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.widget.Toast;
 
 import com.example.hingolifood.MainActivity;
-import com.example.hingolifood.R;
 import com.example.hingolifood.databinding.ActivitySignInActivityBinding;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
